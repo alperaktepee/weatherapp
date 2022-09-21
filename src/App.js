@@ -15,7 +15,7 @@ function App() {
  const [dataLoaded,setDataLoaded]=useState(false);
   const searchWeather = () => {
     Axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d4ef56f87c05c8f93dec880eb36e9d09`
+     "your api key will come here"
     ).then((response) => {
       console.log(response.data);
       setWeatherData({
